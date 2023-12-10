@@ -1,0 +1,55 @@
+  /* profile image */
+  @keyframes slideInFromRight {
+    0% {
+      transform: translateX(100%);
+    }
+
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  .animate-slide-in {
+    animation: 2s ease-in-out 0s 1 slideInFromRight;
+  }
+
+  /* overall text animation */
+  @keyframes dropDown {
+    0% {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animate-drop-down {
+    animation: 1s ease-out 0s 1 dropDown;
+  }
+
+  @keyframes changeColor {
+    0% {
+      color: #fff;
+      /* Starting and ending color */
+    }
+
+    100% {
+      color: #FFA500;
+      /* Midway color */
+    }
+  }
+
+  .animate-color-change {
+    animation: changeColor 4s linear;
+  }
+
+  .project:hover~.description {
+    display:flex;
+  }
+
+  .description:hover {
+    display:flex;
+  }
