@@ -88,7 +88,7 @@ const About = () => {
 
   return (
     <div className='bg-white'>
-      <img src='https://drive.google.com/uc?export=view&id=14mG5tGb3XNQ2fM-Rom0gm3kxL8D9vZLG' alt='my photo'
+      <img src='https://drive.google.com/uc?export=view&id=14mG5tGb3XNQ2fM-Rom0gm3kxL8D9vZLG' alt='Artur Aghajanyan'
         className='fixed h-full right-10 animate-slide-in' />
 
       <div className='flex h-screen justify-center text-blue-950 font-bold'>

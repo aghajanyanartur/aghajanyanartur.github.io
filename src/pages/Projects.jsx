@@ -39,7 +39,7 @@ const Projects = () => {
         <Grid container spacing={4}>
 
           <Grid item xs={6} className='flex project-item'>
-            <img className='cursor-pointer relative project'
+            <img className='cursor-pointer relative project' alt=''
               onMouseEnter={handleOpenDescription}
               style={{ borderRadius: '0.5rem', boxShadow: '0 3px 20px rgb(0 0 0 / 1)' }}
               src='https://drive.google.com/uc?export=view&id=1cBgIWHWaZ9tamq_r0MmRoDqbBWmae5CQ' />
@@ -54,7 +54,7 @@ const Projects = () => {
           </Grid>
 
           <Grid item xs={6} className='flex project-item'>
-            <img className='cursor-pointer relative project'
+            <img className='cursor-pointer relative project' alt=''
               onMouseEnter={handleOpenDescription}
               style={{ borderRadius: '0.5rem', boxShadow: '0 3px 20px rgb(0 0 0 / 1)' }}
               src='https://drive.google.com/uc?export=view&id=1VXvbrgvr3SWueYuF2e4eykkN2aDqBS6Q' />
@@ -69,7 +69,7 @@ const Projects = () => {
           </Grid>
 
           <Grid item xs={4} className='flex project-item'>
-            <img className='cursor-pointer relative project'
+            <img className='cursor-pointer relative project' alt=''
               onMouseEnter={handleOpenDescription}
               style={{ borderRadius: '0.5rem', boxShadow: '0 3px 20px rgb(0 0 0 / 1)' }}
               src='https://drive.google.com/uc?export=view&id=1nFq3MzCPOfP7Dd7p8YtzwqoW6s_snBFF' />
@@ -85,7 +85,7 @@ const Projects = () => {
           </Grid>
 
           <Grid item xs={4} className='flex project-item'>
-            <img className='cursor-pointer relative project'
+            <img className='cursor-pointer relative project' alt=''
               onMouseEnter={handleOpenDescription}
               style={{ borderRadius: '0.5rem', boxShadow: '0 3px 20px rgb(0 0 0 / 1)' }}
               src='https://drive.google.com/uc?export=view&id=1TP46efTEe1kr1ejveNjP_eFxE0HC5nYr' />
@@ -100,7 +100,7 @@ const Projects = () => {
           </Grid>
 
           <Grid item xs={4} className='flex project-item'>
-            <img className='cursor-pointer relative project'
+            <img className='cursor-pointer relative project' alt=''
               onMouseEnter={handleOpenDescription}
               style={{ borderRadius: '0.5rem', boxShadow: '0 3px 20px rgb(0 0 0 / 1)' }}
               src='https://drive.google.com/uc?export=view&id=1T1RpqUMVU9LzVLejXsmmCaSe2lChx6hm' />

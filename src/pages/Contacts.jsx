@@ -1,4 +1,3 @@
-import { Padding } from '@mui/icons-material';
 import React, { useEffect } from 'react';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
