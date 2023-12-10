@@ -25,10 +25,10 @@ const Projects = () => {
       .add({
         targets: '.project',
         opacity: [0, 1],
-        translateX: [-1000, 0],
+        translateX: [-1500, 0],
         easing: 'easeInOutSine',
         direction: 'reverse',
-        duration: 500,
+        duration: 1000,
         delay: anime.stagger(200)
       });
   }, []);
