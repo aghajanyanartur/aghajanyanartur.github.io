@@ -93,7 +93,7 @@ const About = () => {
 
       <div className='flex h-screen justify-center text-blue-950 font-bold'>
         <div style={{ marginLeft: '-20rem' }}>
-          <h1 className='text-5xl font-extrabold pt-10 pb-5' style={{ paddingLeft:'2rem'}}>Artur </h1>
+          <h1 className='text-5xl font-extrabold pt-10 pb-5' style={{ paddingLeft:'2rem'}}>Artur Aghajanyan</h1>
 
           <div className='flex items-center' style={{ paddingLeft:'2rem'}}>
             <img ref={logoRef}
