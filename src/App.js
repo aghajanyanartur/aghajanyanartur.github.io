@@ -5,7 +5,7 @@ import AppRouter from './Router/AppRouter';
 
 function App() {
   return (
-<BrowserRouter>
+    <BrowserRouter>
       <Routes>
         <Route path="/*" element={<AppRouter />} />
       </Routes>
