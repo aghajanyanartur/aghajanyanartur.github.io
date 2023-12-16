@@ -1,15 +1,15 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import AppRouter from './Router/AppRouter';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/*" element={<AppRouter />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

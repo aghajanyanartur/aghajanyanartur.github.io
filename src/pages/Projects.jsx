@@ -108,7 +108,7 @@ const Projects = () => {
               <img className={`cursor-pointer relative ${isDesktop ? 'project-transition' : ''} project w-full h-full fixed top-0 left-0`} alt=''
                 onMouseEnter={handleOpenDescription}
                 style={{ borderRadius: '0.5rem', boxShadow: '0 3px 20px rgb(0 0 0 / 1)', aspectRatio: '2/1' }}
-                src='https://drive.google.com/uc?export=view&id=1TP46efTEe1kr1ejveNjP_eFxE0HC5nYr' />
+                src='https://drive.google.com/uc?export=view&id=1r98dSImLYlrtb97pWSDGRdlmVhxVoIZi' />
               <div className='absolute text-white items-center justify-around flex flex-col cursor-pointer description hidden top-0 left-0 w-full h-full'
                 style={{ borderRadius: '0.5rem', backgroundColor: 'RGB(0,0,0,0.8)', }}
                 onClick={() => window.open('https://github.com/aghajanyanartur/FastRename', '_blank')}>
