@@ -1,15 +1,28 @@
 {
   "files": {
     "main.css": "/static/css/main.22be8b2f.css",
-    "main.js": "/static/js/main.655e4202.js",
+    "main.js": "/static/js/main.c4ecf1ad.js",
     "static/js/787.883ba16e.chunk.js": "/static/js/787.883ba16e.chunk.js",
+    "static/media/price_tracker.png": "/static/media/price_tracker.be1d720796b771c0cd69.png",
+    "static/media/changer.png": "/static/media/changer.060334e2b843480d9c76.png",
+    "static/media/notebook.png": "/static/media/notebook.d7a16c1b333c9bca6220.png",
+    "static/media/movie.png": "/static/media/movie.237f650ac3f3f763e538.png",
+    "static/media/java_logo.png": "/static/media/java_logo.f798cbf1e82757dafb8d.png",
+    "static/media/fast_rename.png": "/static/media/fast_rename.1ffd4519102680bc0056.png",
+    "static/media/artur.png": "/static/media/artur.1d1b445279000e671afe.png",
+    "static/media/javalogo.svg": "/static/media/javalogo.3bcbc4f343d667e24155901680fc3d97.svg",
+    "static/media/datalogo.svg": "/static/media/datalogo.5eae96b811f8de18e4ad29f228952f72.svg",
+    "static/media/gitlogo.svg": "/static/media/gitlogo.8cbd1ea3b09a3b93cd48031e743393ca.svg",
+    "static/media/gradlelogo.svg": "/static/media/gradlelogo.d93957bffd395717f4714bf5f241af5d.svg",
+    "static/media/springlogo.svg": "/static/media/springlogo.717d7f629b18eca185785c11fdc43cd7.svg",
+    "static/media/htmllogo.svg": "/static/media/htmllogo.1400b08c14df245625c6cc0a12c22cbe.svg",
     "index.html": "/index.html",
     "main.22be8b2f.css.map": "/static/css/main.22be8b2f.css.map",
-    "main.655e4202.js.map": "/static/js/main.655e4202.js.map",
+    "main.c4ecf1ad.js.map": "/static/js/main.c4ecf1ad.js.map",
     "787.883ba16e.chunk.js.map": "/static/js/787.883ba16e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.22be8b2f.css",
-    "static/js/main.655e4202.js"
+    "static/js/main.c4ecf1ad.js"
   ]
 }
