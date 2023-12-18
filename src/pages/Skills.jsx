@@ -2,6 +2,12 @@ import React, { useEffect } from 'react';
 import TungstenOutlinedIcon from '@mui/icons-material/TungstenOutlined';
 import anime from 'animejs';
 import { useMediaQuery } from 'react-responsive';
+import javaLogo from '../images/javalogo.svg';
+import springLogo from '../images/springlogo.svg';
+import gradleLogo from '../images/gradlelogo.svg';
+import dataLogo from '../images/datalogo.svg';
+import frontendLogo from '../images/htmllogo.svg';
+import gitLogo from '../images/gitlogo.svg';
 
 const Skills = () => {
 
@@ -91,42 +97,42 @@ const Skills = () => {
           <li className={`flex flex-row items-center skill-item ${isDesktop ? 'java' : ''}`} style={{ borderRadius: '3rem' }} >
             <img className='skill-image'
               style={{ width: `${isDesktop ? '5.2vw' : '6vh'}`, borderRadius: '50%', margin: '0.52vw', padding: '0.52vw', backgroundColor: 'white' }}
-              src="https://drive.google.com/uc?export=view&id=1WAoZS5i1wtvV0aYmp0ORIFcrjI8u1pL2" alt=''/>
+              src={javaLogo} alt=''/>
             <span className={`pl-[2vw] ${isDesktop ? 'text-[1.56vw]' : 'text-[1.7vh]'} text-white font-black`}>Java Core and OOP</span>
           </li>
 
           <li className={`flex flex-row items-center skill-item ${isDesktop ? 'spring' : ''}`} style={{ borderRadius: '3rem' }}>
             <img className='skill-image'
               style={{ width: `${isDesktop ? '5.2vw' : '6vh'}`, borderRadius: '50%', margin: '0.52vw', padding: '0.52vw', backgroundColor: 'white' }}
-              src='https://drive.google.com/uc?export=view&id=11j99hSJA15Ma8iaCu0cl1n7Gl1A9ADbW' alt=''/>
+              src={springLogo} alt=''/>
             <span className={`pl-[2vw] ${isDesktop ? 'text-[1.56vw]' : 'text-[1.7vh]'} text-white font-black`}>Spring Boot and Spring Security</span>
           </li>
 
           <li className={`flex flex-row items-center skill-item ${isDesktop ? 'gradle' : ''}`} style={{ borderRadius: '3rem' }}>
             <img className='skill-image'
               style={{ width: `${isDesktop ? '5.2vw' : '6vh'}`, borderRadius: '50%', margin: '0.52vw', padding: '0.52vw', backgroundColor: 'white' }}
-              src='https://drive.google.com/uc?export=view&id=1kL1fMHNCjztJJXcL98tD-zukKfbV-uKi' alt=''/>
+              src={gradleLogo} alt=''/>
             <span className={`pl-[2vw] ${isDesktop ? 'text-[1.56vw]' : 'text-[1.7vh]'} text-white font-black`}>Build tools - Gradle and Maven</span>
           </li>
 
           <li className={`flex flex-row items-center skill-item ${isDesktop ? 'data' : ''}`} style={{ borderRadius: '3rem' }}>
             <img className='skill-image'
               style={{ width: `${isDesktop ? '5.2vw' : '6vh'}`, borderRadius: '50%', margin: '0.52vw', padding: '0.52vw', backgroundColor: 'white' }}
-              src='https://drive.google.com/uc?export=view&id=1_LcTwpDwfxp21YeWQliMcOp6xIAnXZXH' alt=''/>
+              src={dataLogo} alt=''/>
             <span className={`pl-[2vw] ${isDesktop ? 'text-[1.56vw]' : 'text-[1.7vh]'} text-white font-black`}>SQL, Spring Data, JPA, Hibernate</span>
           </li>
 
           <li className={`flex flex-row items-center skill-item ${isDesktop ? 'frontend' : ''}`} style={{ borderRadius: '3rem' }}>
             <img className='skill-image'
               style={{ width: `${isDesktop ? '5.2vw' : '6vh'}`, borderRadius: '50%', margin: '0.52vw', padding: '0.52vw', backgroundColor: 'white' }}
-              src='https://drive.google.com/uc?export=view&id=1ZISeE4z14ua-a3ci8g6M_XYfBBYhZc8a' alt=''/>
+              src={frontendLogo} alt=''/>
             <span className={`pl-[2vw] ${isDesktop ? 'text-[1.56vw]' : 'text-[1.7vh]'} text-white font-black`}>Familiarity with frontend technologies</span>
           </li>
 
           <li className={`flex flex-row items-center skill-item ${isDesktop ? 'git' : ''}`} style={{ borderRadius: '3rem' }}>
             <img className='skill-image'
               style={{ width: `${isDesktop ? '5.2vw' : '6vh'}`, borderRadius: '50%', margin: '0.52vw', padding: '0.52vw', backgroundColor: 'white' }}
-              src='https://drive.google.com/uc?export=view&id=17rVfMr6voIoFjBxVQkC7RiGuUps5-L86' alt=''/>
+              src={gitLogo} alt=''/>
             <span className={`pl-[2vw] ${isDesktop ? 'text-[1.56vw]' : 'text-[1.7vh]'} text-white font-black`}>Version control system - GIT</span>
           </li>
         </ul>

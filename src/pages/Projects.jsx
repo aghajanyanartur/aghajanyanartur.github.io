@@ -3,6 +3,11 @@ import anime from 'animejs';
 import React, { useEffect } from 'react';
 import '../styles/animations.css';
 import { useMediaQuery } from 'react-responsive';
+import priceTracker from '../images/price_tracker.png';
+import movieRating from '../images/movie.png';
+import changer from '../images/changer.png';
+import fastRename from '../images/fast_rename.png';
+import notebook from '../images/notebook.png';
 
 const Projects = () => {
 
@@ -47,7 +52,7 @@ const Projects = () => {
               <img className={`cursor-pointer relative ${isDesktop ? 'project-transition' : ''} project w-full h-full fixed top-0 left-0`} alt=''
                 onMouseEnter={handleOpenDescription}
                 style={{ borderRadius: '0.5rem', boxShadow: '0 3px 20px rgb(0 0 0 / 1)', aspectRatio: '2/1' }}
-                src='https://drive.google.com/uc?export=view&id=1cBgIWHWaZ9tamq_r0MmRoDqbBWmae5CQ' />
+                src={priceTracker} />
               <div className='absolute text-white items-center justify-around flex flex-col cursor-pointer description hidden top-0 left-0 w-full h-full'
                 style={{ borderRadius: '0.5rem', backgroundColor: 'RGB(0,0,0,0.8)' }}
                 onClick={() => window.open('https://github.com/aghajanyanartur/PriceTracker', '_blank')}>
@@ -67,7 +72,7 @@ const Projects = () => {
               <img className={`cursor-pointer relative ${isDesktop ? 'project-transition' : ''} project w-full h-full fixed top-0 left-0`} alt=''
                 onMouseEnter={handleOpenDescription}
                 style={{ borderRadius: '0.5rem', boxShadow: '0 3px 20px rgb(0 0 0 / 1)', aspectRatio: '2/1' }}
-                src='https://drive.google.com/uc?export=view&id=1VXvbrgvr3SWueYuF2e4eykkN2aDqBS6Q' />
+                src={movieRating} />
               <div className='absolute text-white items-center justify-around flex flex-col cursor-pointer description hidden top-0 left-0 w-full h-full'
                 style={{ borderRadius: '0.5rem', backgroundColor: 'RGB(0,0,0,0.8)', }}
                 onClick={() => window.open('https://github.com/aghajanyanartur/movie-rating', '_blank')}>
@@ -87,7 +92,7 @@ const Projects = () => {
               <img className={`cursor-pointer relative ${isDesktop ? 'project-transition' : ''} project w-full h-full fixed top-0 left-0`} alt=''
                 onMouseEnter={handleOpenDescription}
                 style={{ borderRadius: '0.5rem', boxShadow: '0 3px 20px rgb(0 0 0 / 1)', aspectRatio: '2/1' }}
-                src='https://drive.google.com/uc?export=view&id=1nFq3MzCPOfP7Dd7p8YtzwqoW6s_snBFF' />
+                src={changer} />
               <div className='absolute text-white items-center justify-around flex flex-col cursor-pointer description hidden top-0 left-0 w-full h-full'
                 style={{ borderRadius: '0.5rem', backgroundColor: 'RGB(0,0,0,0.8)', }}
                 onClick={() => window.open('https://github.com/aghajanyanartur/Changer', '_blank')}>
@@ -108,7 +113,7 @@ const Projects = () => {
               <img className={`cursor-pointer relative ${isDesktop ? 'project-transition' : ''} project w-full h-full fixed top-0 left-0`} alt=''
                 onMouseEnter={handleOpenDescription}
                 style={{ borderRadius: '0.5rem', boxShadow: '0 3px 20px rgb(0 0 0 / 1)', aspectRatio: '2/1' }}
-                src='https://drive.google.com/uc?export=view&id=1B3yskTdsz44jJVDkfkhPZaFXXnNXxMBQ' />
+                src={fastRename} />
               <div className='absolute text-white items-center justify-around flex flex-col cursor-pointer description hidden top-0 left-0 w-full h-full'
                 style={{ borderRadius: '0.5rem', backgroundColor: 'RGB(0,0,0,0.8)', }}
                 onClick={() => window.open('https://github.com/aghajanyanartur/FastRename', '_blank')}>
@@ -128,7 +133,7 @@ const Projects = () => {
               <img className={`cursor-pointer relative ${isDesktop ? 'project-transition' : ''} project w-full h-full fixed top-0 left-0`} alt=''
                 onMouseEnter={handleOpenDescription}
                 style={{ borderRadius: '0.5rem', boxShadow: '0 3px 20px rgb(0 0 0 / 1)', aspectRatio: '2/1' }}
-                src='https://drive.google.com/uc?export=view&id=1T1RpqUMVU9LzVLejXsmmCaSe2lChx6hm' />
+                src={notebook} />
               <div className='absolute text-white items-center justify-around flex flex-col cursor-pointer description hidden top-0 left-0 w-full h-full'
                 style={{ borderRadius: '0.5rem', backgroundColor: 'RGB(0,0,0,0.8)', }}
                 onClick={() => window.open('https://github.com/aghajanyanartur/Notebook', '_blank')}>

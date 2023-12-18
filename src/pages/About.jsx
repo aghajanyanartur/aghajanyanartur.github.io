@@ -5,6 +5,8 @@ import '../styles/animations.css';
 import anime from 'animejs';
 import PanToolAltIcon from '@mui/icons-material/PanToolAlt';
 import { useMediaQuery } from 'react-responsive';
+import arturImage from '../images/artur.png'
+import javaLogo from '../images/java_logo.png'
 
 const About = () => {
 
@@ -90,7 +92,7 @@ const About = () => {
 
   return (
     <div className='bg-white'>
-      {isDesktop && <img src='https://drive.google.com/uc?export=view&id=1R8vhDQqcEEVCW5RBXVaYBO7-Y7daQBvf' alt='Artur Aghajanyan'
+      {isDesktop && <img src={arturImage} alt='Artur Aghajanyan'
         className='fixed w-[32vw] right-[2vw] bottom-0 animate-slide-in' />}
 
       <div className='flex h-screen justify-center text-blue-950 font-bold'>
@@ -102,7 +104,7 @@ const About = () => {
 
           <div className='flex items-center' style={{ paddingLeft: '2vw' }}>
             {isDesktop && <img ref={logoRef}
-              src='https://drive.google.com/uc?export=view&id=1MiX2EGSGqtO96QiCeHzj8ovP79-ftJta'
+              src={javaLogo}
               alt=''
               className='w-[2vw] absolute'
             />}
