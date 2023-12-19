@@ -33,37 +33,37 @@ const Skills = () => {
         easing: 'easeOutExpo',
         duration: 300,
         translateY: [-800, 0]
-      }, '-=150')
+      }, '-=2000')
       .add({
         targets: '.frontend',
         easing: 'easeOutExpo',
         duration: 300,
         translateY: [-700, 0]
-      }, '-=150')
+      }, '-=2000')
       .add({
         targets: '.data',
         easing: 'easeOutExpo',
         duration: 300,
         translateY: [-600, 0]
-      }, '-=150')
+      }, '-=2000')
       .add({
         targets: '.gradle',
         easing: 'easeOutExpo',
         duration: 300,
         translateY: [-500, 0]
-      }, '-=150')
+      }, '-=2000')
       .add({
         targets: '.spring',
         easing: 'easeOutExpo',
         duration: 300,
         translateY: [-400, 0]
-      }, '-=150')
+      }, '-=2000')
       .add({
         targets: '.java',
         easing: 'easeOutExpo',
         duration: 300,
         translateY: [-300, 0]
-      }, '-=150')
+      }, '-=2000')
       .add({
         targets: '.skill-item',
         backgroundColor: '#FFA500',
@@ -74,7 +74,7 @@ const Skills = () => {
         easing: 'easeInOutSine',
         duration: 1500,
         delay: anime.stagger(200)
-      }, '-=500')
+      }, '-=2000')
     anime({
       targets: '.skill-image',
       rotate: 360,
