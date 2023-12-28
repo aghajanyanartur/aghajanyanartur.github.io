@@ -142,7 +142,7 @@ const About = () => {
                   boxShadow: '10px 0px 5px 0px rgba(50, 50, 50, 0.5)',
                   border: '1px solid rgba(50, 50, 50, 0.2)'
                 }}
-                onClick={() => window.open('https://drive.google.com/file/d/1y1KVZThm9z05t42RfK9J59HP67gvLlYa/view?usp=drive_link', '_blank')}>
+                onClick={() => window.open('https://drive.google.com/file/d/17id9qmaWH82bgekCpsrFIGwrYJSovX3c/view?usp=drive_link', '_blank')}>
                 CV
               </Button>
             </p>
